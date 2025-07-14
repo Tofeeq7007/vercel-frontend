@@ -2,7 +2,6 @@ import { useState } from "react"
 import { ShortendLink } from "./shortendlink";
 import { createShortUrl } from "../services/urlServices";
 import { useSelector } from "react-redux";
-import { CustomUrl } from "./customUrl";
 import { UserUrl } from "./UserUrls";
 export function Abcd(){
     const [url , setUrl] = useState("");
