@@ -8,9 +8,4 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-    server: {
-    proxy: {
-      '/api': 'https://vercel-backend-yourapp.vercel.app',
-    }
-  }
 })
