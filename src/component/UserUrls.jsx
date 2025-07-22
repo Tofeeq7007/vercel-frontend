@@ -48,7 +48,7 @@ export const UserUrl = ()=>{
     <div className="bg-white rounded-lg mt-5 shadow-md overflow-hidden">
       
       <div className="overflow-x-auto h-56">
-        <table className="w-[20%] divide-y divide-gray-200">
+        <table className="w-[100%] divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
               <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
