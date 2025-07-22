@@ -25,9 +25,9 @@ export function Abcd(){
     }
 
     return (
-        <div className="w-full h-screen bg-gray-100">
+        <div className="w-full h-[619px] bg-gradient-to-r  from-blue-400 to-green-400">
             <div className="flex  justify-center items-center h-full px-4">
-                <div className="bg-white shadow-lg rounded-2xl p-10 w-full max-w-4xl">
+                <div className={`bg-white shadow-lg rounded-2xl p-10 ${auth.isAuthenticated ? 'w-[70%]' :'w-[35%]'}`}>
 
                     <h2 className="bg-white text-2xl font-semibold text text-center mb-6 text-gray-800">URL Shortner</h2>
                     <div className="mb-4">
