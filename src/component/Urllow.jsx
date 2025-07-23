@@ -25,9 +25,9 @@ export function Abcd(){
     }
 
     return (
-        <div className="w-full h-[619px] bg-gradient-to-r  from-blue-400 to-green-400">
-            <div className="flex  justify-center items-center h-full px-4">
-                <div className={`bg-white shadow-lg rounded-2xl p-10 ${auth.isAuthenticated ? 'w-[70%]' :'w-[35%]'}`}>
+        <div className="w-full h-[685px] bg-gradient-to-r  from-blue-400 to-green-400">
+            <div className="flex  justify-center items-center  h-full w-full">
+                <div className={`bg-white min-lg:w-[70%] min-[320px]:w-dvh mx-10 shadow-lg rounded-2xl p-10 ${auth.isAuthenticated ? 'w-[70%]' :'w-[35%]'}`}>
 
                     <h2 className="bg-white text-2xl font-semibold text text-center mb-6 text-gray-800">URL Shortner</h2>
                     <div className="mb-4">
